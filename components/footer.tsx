@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaHeart } from "react-icons/fa6";
 import { FaMapMarkerAlt,FaPhoneAlt,FaMailBulk   } from "react-icons/fa";
-import Alphamini from "@/public/images/Brand/alpha-logo.png"
+import Alphamini from "@/public/images/Brand/crack.png"
 import { Input } from "@/components/ui/input"
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className="border-t border-blue-500 border-dashed">
             <div className="flex items-center justify-between px-16 py-8">
                 <div className="w-72 flex flex-col items-center justify-start gap-3">
-                    <Image src={Alphamini} alt={"Alpha Solutions"} className="w-24" />
+                    <Image src={Alphamini} alt={"Alpha Solutions"} className="w-32" />
                     <p className="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, sed maxime vitae, </p>
                     <ul className="list-none flex flex-col items-start justify-center gap-2">
                         <li className="flex items-start justify-center gap-3"><FaMapMarkerAlt className="text-blue-600 mt-1 text-4xl" /> Sri Ganapathy Complex, 96/1, A K Nagar, Saibaba Colony, Coimbatore, Tamil Nadu 641011</li>
