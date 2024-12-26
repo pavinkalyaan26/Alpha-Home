@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaHeart } from "react-icons/fa6";
 import { FaMapMarkerAlt,FaPhoneAlt,FaMailBulk   } from "react-icons/fa";
-import Alphamini from "@/public/images/Brand/crack.png"
+import Alphamini from "@/public/images/Brand/logo.svg"
 import { Input } from "@/components/ui/input"
 
 const Footer = () => {
@@ -11,10 +11,10 @@ const Footer = () => {
                 <div className="w-72 flex flex-col items-center justify-start gap-3">
                     <Image src={Alphamini} alt={"Alpha Solutions"} className="w-32" />
                     <p className="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, sed maxime vitae, </p>
-                    <ul className="list-none flex flex-col items-start justify-center gap-2">
-                        <li className="flex items-start justify-center gap-3"><FaMapMarkerAlt className="text-blue-600 mt-1 text-4xl" /> Sri Ganapathy Complex, 96/1, A K Nagar, Saibaba Colony, Coimbatore, Tamil Nadu 641011</li>
-                        <li className="flex items-start justify-center gap-3"><FaPhoneAlt className="text-blue-600 mt-1 text-lg"  /> +91 934 595 1452</li>
-                        <li className="flex items-start justify-center gap-3"><FaMailBulk className="text-blue-600 mt-1 text-lg"  /> Contact@alphasolutions.org.in</li>
+                    <ul className="list-none flex flex-col items-start justify-center gap-2 w-full">
+                        <li className="flex items-start justify-center gap-3"><FaMapMarkerAlt className="text-blue-600 mt-1 text-lg" />Coimbatore</li>
+                        <li className="flex items-start justify-center gap-3"><FaPhoneAlt className="text-blue-600 mt-1 text-lg"  /> +91 XXXXXXXXXX</li>
+                        <li className="flex items-start justify-center gap-3"><FaMailBulk className="text-blue-600 mt-1 text-lg"  />pavinkalyaan263@gmail.com</li>
                     </ul>
                 </div>
                 <div className="flex items-center justify-center">

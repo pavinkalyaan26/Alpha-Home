@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Alpha from "@/public/images/Brand/crack.png"
+import Alpha from "@/public/images/Brand/logo.svg"
 
 const Navbar = () => {
     return (
